@@ -1,0 +1,43 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+env/
+ENV/
+*.egg-info/
+dist/
+build/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# 测试报告
+report/
+logs/
+*.log
+allure-report/
+allure-results/
+
+# 系统文件
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# 敏感信息（不要上传）
+extract.yaml
+conf/config.ini
+*.env
+*.key
+*.pem
+
+# 临时文件
+*.tmp
+*.bak
+*.cache
